@@ -60,6 +60,8 @@ link_name_2: 'link'"
 ```
 
 20220115: YUHANG-Ma update. \
+original version:
+https://github.com/pal-robotics/gazebo_ros_link_attacher
 In the history version, when attach and detach a static target, gazebo experienced an anomaly that prevented the robot from moving.
 In this version, When the macro definition DONOT_ATTACH_STATIC_MODEL is set, judge the target attribute. If the target is static, it will not be executed attach!
 ```
