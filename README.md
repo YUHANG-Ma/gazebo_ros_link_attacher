@@ -60,8 +60,8 @@ link_name_2: 'link'"
 ```
 
 20220115: YUHANG-Ma update. \
-when attach and detach a static target, the robot can not move!
-so, When the macro definition DONOT_ATTACH_STATIC_MODEL is set, judge the target attribute. If the target is static, it will not be executed attach!
+In the history version, when attach and detach a static target, gazebo experienced an anomaly that prevented the robot from moving.
+In this version, When the macro definition DONOT_ATTACH_STATIC_MODEL is set, judge the target attribute. If the target is static, it will not be executed attach!
 ```
 #define DONOT_ATTACH_STATIC_MODEL 1
 ```
